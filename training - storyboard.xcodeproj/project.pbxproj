@@ -17,6 +17,7 @@
 		613CBAB32A0DECD200E3AE87 /* training___storyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CBAB22A0DECD200E3AE87 /* training___storyboardUITestsLaunchTests.swift */; };
 		613CBAC22A0E200400E3AE87 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CBAC12A0E200400E3AE87 /* Coordinator.swift */; };
 		613CBAC42A0E222300E3AE87 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CBAC32A0E222300E3AE87 /* MainCoordinator.swift */; };
+		613CBAC62A0E2DB400E3AE87 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CBAC52A0E2DB400E3AE87 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		613CBAB22A0DECD200E3AE87 /* training___storyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "training___storyboardUITestsLaunchTests.swift"; sourceTree = "<group>"; };
 		613CBAC12A0E200400E3AE87 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		613CBAC32A0E222300E3AE87 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		613CBAC52A0E2DB400E3AE87 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				613CBA9D2A0DECD100E3AE87 /* Info.plist */,
 				613CBAC12A0E200400E3AE87 /* Coordinator.swift */,
 				613CBAC32A0E222300E3AE87 /* MainCoordinator.swift */,
+				613CBAC52A0E2DB400E3AE87 /* SecondViewController.swift */,
 			);
 			path = "training - storyboard";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613CBAC62A0E2DB400E3AE87 /* SecondViewController.swift in Sources */,
 				613CBAC22A0E200400E3AE87 /* Coordinator.swift in Sources */,
 				613CBA942A0DECD000E3AE87 /* ViewController.swift in Sources */,
 				613CBA902A0DECD000E3AE87 /* AppDelegate.swift in Sources */,

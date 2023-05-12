@@ -15,7 +15,21 @@ class ViewController: UIViewController , Coordinating{
         super.viewDidLoad()
         view.backgroundColor = .red
         title = "Home"
+        let button = UIButton (frame: CGRect(x: 0, y: 0, width: 220, height: 50))
+        view.addSubview(button)
+        button.center = view.center
+        button.backgroundColor = .systemMint
+        button.setTitleColor(.white, for: .normal)
+        button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+        button.setTitle("this is button", for: .normal)
+        
             
+    }
+    
+    @objc func didTapButton(){
+        
+        coordinator?.EventOccured(with: .buttontapped)
+        
     }
 
 
